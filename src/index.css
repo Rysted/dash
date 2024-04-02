@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body{
+  background-color: #F6F6F6;
+}
+
+h1{
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+/* NavLink */
+.pending{
+  color: aqua;
+}
+.active{
+  color: rgb(168, 76, 255);
+}
+/* useNavigation */
+.loading {
+  opacity: 0.5;
+}
+
+.flex-center{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px
+}
+
+.column-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Colors */
+.color-blueviolet{
+  color: blueviolet;
+}
+.color-blue{
+  color: #0000ff;
+}
+.color-red{
+  color: #ff0000;
+}
