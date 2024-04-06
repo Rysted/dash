@@ -1,5 +1,5 @@
-import svg_info from "./svg_info.json";
 import type { SvgInfo } from "../types";
+import svg_info from "./svg_info.json";
 
 const svgInfo: SvgInfo = svg_info;
 

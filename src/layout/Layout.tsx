@@ -1,7 +1,7 @@
-import { Outlet, useNavigation } from "react-router-dom";
 import { ConfigProvider } from "antd";
-import Header from "../components/Header";
+import { Outlet, useNavigation } from "react-router-dom";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 const Layout = ({ children }: { children?: React.ReactNode }) => {
 	const navigation = useNavigation();

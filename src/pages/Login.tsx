@@ -1,15 +1,15 @@
 import {
-	Typography,
-	Form,
 	Button,
 	Checkbox,
+	ConfigProvider,
+	Form,
 	type FormProps,
 	Input,
 	Space,
-	ConfigProvider,
+	Typography,
 } from "antd";
-import SvgIcon from "../icons/SvgIcon";
 import { Link } from "react-router-dom";
+import SvgIcon from "../icons/SvgIcon";
 
 const { Title } = Typography;
 

@@ -1,5 +1,5 @@
 import { useLoaderData } from "react-router-dom";
-import type { User, Params } from "../types";
+import type { Params, User } from "../types";
 
 const DetailsUser = () => {
 	const { user } = useLoaderData() as { user: User | string };
